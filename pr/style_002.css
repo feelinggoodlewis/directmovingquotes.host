@@ -1,0 +1,78 @@
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer{
+	position:absolute;
+	width:330px;
+	height: auto;
+	left:45%;
+	top:80px;
+	background: #FFF;
+}
+
+
+
+.btn {padding:10px 20px; background: #F4F4F2;}
+.btn_red {background: #ED6347; color: #FFF;}
+
+.btn:hover {background: #E4E4E2;}
+.btn_red:hover {background: #C12B05;}
+
+a.btn {color:#666; text-align: center; text-decoration: none;}
+a.btn_red {color: #FFF;}
+
+.one_half {width:50%; display: block; float:left;}
+.one_half.last {width:45%; margin-left:5%;}
+
+/* Popup Styles*/
+.popupHeader {font-size:16px; text-transform: uppercase;}
+.popupHeader {background:#F4F4F2; position:relative; padding:10px 20px; border-bottom:1px solid #DDD; font-weight:bold;}
+.popupHeader .modal_close {position: absolute; right: 0; top:0; padding:10px 15px; background:#E4E4E2; cursor: pointer; color:#aaa; font-size:16px;}
+
+.popupBody {padding:20px;}
+
+
+/* Social Login Form */
+.social_login {}
+.social_login .social_box {display:block; clear:both; padding:10px; margin-bottom: 10px; background: #F4F4F2; overflow: hidden;}
+.social_login .icon {display:block; width:10px; padding:5px 10px; margin-right: 10px; float:left; color:#FFF; font-size:16px; text-align: center;} 
+.social_login .fb .icon {background:#3B5998;}
+.social_login .google .icon {background:#DD4B39;}
+.social_login .icon_title {display:block; padding:5px 0; float:left; font-weight: bold; font-size: 22px; color:#777;}
+.social_login .social_box:hover {background: #E4E4E2;}
+
+.centeredText {text-align: center; margin: 20px 0; clear: both; overflow: hidden; font-size:20px;}
+
+.action_btns {clear:both; overflow: hidden;}
+.action_btns a {display: block;}
+
+.get-started {border-radius: 0px;}
+.get-started a {color: #fff!important;}
+li.get-started {
+background-color:#0d6693;; 
+font-weight: 700; 
+text-transform: uppercase; 
+text-align: center; 
+padding: 12px 13px 10px 10px!important;
+border-radius: 3px;
+-moz-transition: all 0.5s; 
+-webkit-transition: all 0.5s;
+transition: all 0.5s;}
+li.get-started:hover {background-color:#0d6693;;}
+
+/* fixed header button text color */
+.et-fixed-header #top-menu .get-started a {
+color: #fff!important;}
+.get-started li.current-menu-ancestor > a, .get-started li.current-menu-item > a {
+color: #fff !important;}
+
+@media only screen and (min-width : 981px) {
+li.get-started {height: 38px;}}
